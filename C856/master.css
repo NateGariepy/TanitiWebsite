@@ -1,0 +1,396 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+
+.headerImage {
+    padding-left: 1.5rem;
+}
+
+.headerImage img {
+    height: 7rem;
+}
+
+.headerText {
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.toolsContain {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    padding-right: 1rem;
+    border: 1px solid #003b6d;
+    background-color: #bdbdbd;
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+
+.toolsContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 0.2rem;
+    background-color: #003b6d;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navLinks a {
+	text-decoration: none;
+	color: #fff;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.selected {
+	padding-top: 0.1rem;
+	border-top: 5px solid #6699cc;
+	border-bottom: 5px solid #6699cc;
+	border-radius: 8px;
+}
+
+/* Search element */
+
+.search {
+	padding-right: 0.3rem;
+	display: flex;
+	align-items: center;
+}
+
+.search input {
+	border: none;
+	height: 25px;
+	outline: 0;
+	padding: 0.5rem;
+}
+
+.search button {
+	border: none;
+	background-color: #003b6d;
+	color: #fff;
+	padding: 0.5rem;
+}
+
+/* Contact elements */
+
+.contactContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+	width: 30%;
+	top: 10rem;
+	margin-right: 10rem;
+}
+
+.contactContain form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactContain form label {
+	padding-top: 1.2rem;
+}
+
+.contactContain form input {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+}
+
+.contactContain select {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+	width: 30%;
+}
+
+.contactContain button {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+	background-color: #003b6d;
+	color: #fff;
+	margin-top: 1.2rem;
+}
+
+.contactContain button:hover {
+	background-color: #175a9c;
+}
+
+.contactInfoContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+	width: 40%;
+	height: 50%;
+}
+
+.map {
+	padding-top: 2rem;
+}
+
+.mapInfo {
+	padding-top: 1.2rem;
+}
+
+.contactMethodsContain {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* General elements */
+
+.landing {
+	display: flex;
+	color: #003b6d;
+}
+
+.landingImageContain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5rem;
+	margin-right: 6rem;
+}
+
+.landingInfoContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.landingInfoContain ul {
+	padding: 1.2rem;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+.landingImageContain img {
+	border: 2px solid #003b6d;
+	border-radius: 10%;
+	height: 15rem;
+}
+
+.landingInfoContain p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.landingInfoContain h1 {
+	font-size: 2.3rem;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	line-height: 1.5;
+}
+
+/* Brand elements */
+
+.brandInfoContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+}
+
+.brandInfoContain h1 {
+	font-size: 2.3rem;
+}
+
+.brandInfoContain p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+/* Animal page elements */
+
+.careInfoContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+}
+
+.careInfoContain h1 {
+	font-size: 2.3rem;
+}
+
+.careInfoContain h2 {
+	font-size: 1.3rem;
+	padding-top: 1.2rem;
+}
+
+.careInfoContain p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.careImagesContain img {
+	border: 2px solid #003b6d;
+	border-radius: 10%;
+	height: 17rem;
+	margin: 2rem;
+}
+
+.careImagesContain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.careInfoContain ul {
+	padding: 1.2rem;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+/* Vacation elements */
+
+.vacation {
+	display: flex;
+	color: #003b6d;
+}
+
+.vacationInfoContain {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	color: #003b6d;
+}
+
+.vacationImageContain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5rem;
+	margin-right: 6rem;
+}
+
+.vacationImageContain img {
+	border: 2px solid #003b6d;
+	border-radius: 10%;
+	height: 17rem;
+}
+
+.vacationInfoContain h1 {
+	font-size: 2.3rem;
+}
+
+.vacationInfoContain h2 {
+	font-size: 1.3rem;
+}
+
+.vacationInfoContain p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.vacationInfoContain a {
+	text-decoration: none;
+	color: #003b6d;
+	background-color: #fff;
+	padding: 0.5rem;
+	border: 2px solid #003b6d;
+	border-radius: 5px;
+	justify-content: space-between;
+	margin: 0.3rem;
+}
+
+.vacationLinks {
+	margin-top: 1rem;
+}
+
+.vacationInfoContain a:hover {
+	background-color: #003b6d;
+	color: #fff;
+}
+
+/* Footer elements */
+
+footer {
+	background-color: #003b6d;
+	height: 3rem;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.socialMedia {
+	display: flex;
+}
+
+.socialMedia a {
+	color: #fff;
+	padding: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	padding-left: 3rem;
+}
+
+.socialMedia a:hover {
+	color: #003b6d;
+}
+
+.socialMedia a i {
+	font-size: 1.5rem;
+}
